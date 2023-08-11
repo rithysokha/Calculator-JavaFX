@@ -1,0 +1,6 @@
+.rounded-corner{
+-fx-background-radius: 20;
+}
+.circle-btn{
+-fx-background-radius: 50;
+}

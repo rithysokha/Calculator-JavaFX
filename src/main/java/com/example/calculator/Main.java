@@ -13,8 +13,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         Scene scene = new Scene(root);
-
-
+        stage.setTitle("Calculator");
         stage.setScene(scene);
         stage.show();
     }
