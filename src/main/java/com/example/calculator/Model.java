@@ -15,7 +15,7 @@ public class Model {
             }
             case "/" ->{
                 if (number2 > 0 )
-                    return (double) number1 / number2;
+                    return number1 / number2;
                 return 0;
             }
             default -> {
