@@ -39,6 +39,13 @@ public class MainController implements Initializable {
             operator = "";
             start = true;
         }else {
+            if(value.equals("<-")) {
+                String str = label.getText();
+                if (str.length() > 0) {
+                    str = str.substring(0, str.length() - 1);
+                    label.setText(str);
+                }
+            }
             if (!value.equals("=")) {
                 if (!operator.isEmpty())
                     return;
